@@ -1,0 +1,296 @@
+@charset "utf-8";
+
+.dummy { 
+margin: 0; 
+}
+
+body{
+	color:#333333;
+    font-family: "Yu Gothic","Hiragino Kaku Gothic ProN", "Meiryo",sans-serif;
+	margin: 0px;
+    background-image: url("../image/2026.06.04.png");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+p{
+	font-size: 100%;
+	line-height: 1.8;
+}
+
+h1{
+	font-size: 200%;
+	text-align: center;
+    text-shadow: 2px 2px 4px #999;
+}
+
+h2{
+	font-size: 115%;
+	border-bottom: 1px dashed #7e4e57;
+	border-left: 10px solid #7e4e57;
+    padding-left: 7px;
+    font-weight: bold;
+}
+
+footer{
+	border: none;
+	text-align: center;
+	background-color: #ffd1dc;
+    color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 75%;
+    clear: both;
+}
+
+article{
+	position:  relative;
+	width: 100%;
+    max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+    border: 1px solid #ffd1dc;
+	margin-top: 30px; /* 隙間 */
+}
+
+
+.catch {
+	position: absolute;
+	top: 70px;
+	left: 10px;
+	color: #ffffff;
+	text-shadow: 0px 5px 10px #000000;
+	background-color: rgba(255, 255, 255, 0.4);
+    font-size: 70%;
+    font-weight: bold;
+    padding: 8px 12px;
+	border-radius: 8px;
+}
+
+.subhead {
+    font-size: 180%;
+    color: #ffffff;
+}
+
+header{
+	background-color: #ffd1dc;
+	color: #ffffff;
+    height: 90px;
+}
+
+.pink{
+    color:#c97c8c; 
+}
+
+.navy{ 
+    color:#4a6583; font-size: 110%; 
+}
+
+header img{
+    float: left;
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 0;
+	font-size: 95%;
+	line-height: 1.8;
+	
+}
+
+
+ul time{
+	background-color: #999999;
+	border-radius:  10px;
+	color: #ffffff;
+	font-size: 90%;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: 5px;
+}
+
+nav ul{
+	font-weight: bold;
+	text-align: right;
+	padding-top: 55px;
+	padding-bottom: 5px;
+	margin: 0;
+    font-size: 20px;
+}
+
+table{
+	border: 1px solid #333333;
+	font-size: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	background-color: #dcdcdc;
+}
+
+th{
+	background-color: #ccccff;
+	border: 1px solid #333333;
+	padding: 10px;
+	width: 20px;
+}
+
+
+nav li{
+    color: #ffffff;
+	display: inline;
+	padding-left: 10px;
+	padding-right: 12px;
+	border-right: 1px solid #ffffff;
+}
+
+nav li:last-child{
+    border-right: none;
+}
+
+.header-in {
+    max-width: 960px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sub-h1{
+	border: 1px solid pink;
+	background: linear-gradient(to left, #faedf0, #ffffff);
+	padding-top: 5px;
+	padding-left: 10px;
+	border-left: 15px solid #7e4e57;
+}
+
+.point-list{
+	list-style-image: url(../image/13019.png);
+	margin-left: 30px;
+	font-weight: bold;
+}
+
+.point-img{
+    box-shadow: 0px 0px 10px 3px #ffd1dc;;
+	border-radius: 10px;
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+.sentou{
+	clear: both;
+	text-align: right;
+}
+
+ol li{
+	display: inline;
+	margin-right: 5px;
+    font-size: 20px;
+}
+
+ol {
+	padding-bottom: 0px;
+}
+
+.page{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+nav ul a{
+	text-decoration: none;
+	color:#ffffff;
+}
+a:link{
+	color: #0000ff;
+} 
+
+a:visited {
+	color: #c97c8c;
+}
+
+a:hover{
+	color: #4a6583;
+} 
+
+a:active {
+	color: #c97c8c;
+}
+
+.float-left{
+    float:left;
+    margin-right:20px;
+    margin-bottom:10px;
+}
+
+.breadcrumb li{
+    display: inline;
+}
+
+.clear{
+    clear: both;
+}
+
+/* 600px以下の場合 */
+@media (max-width: 600px){
+	nav li{
+		font-size: 75%;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+
+	.catch {
+	top: 5px;
+	left: 10px;
+    }
+
+	.point-img{
+		float: none;
+	}
+
+}
+
+header img{
+    float: left;
+}
+
+
+
+footer{
+	font-size: 75%;
+}
+
+header img{
+    float: left;
+}
+
+.catch {
+	top: 5px;
+	left: 10px;
+}
+
+footer{
+	font-size: 75%;
+}
+
+.breadcrumb{
+    width: 100%;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    overflow: hidden;
+}
+
+footer {
+    clear: both;
+}
+
+table{
+	border: 1px solid red;
+}
+
+
+
