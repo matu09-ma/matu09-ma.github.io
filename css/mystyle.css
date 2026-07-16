@@ -101,7 +101,7 @@ ul{
 
 
 ul time{
-	background-color: #999999;
+	background-color: #c97c8c;
 	border-radius:  10px;
 	color: #ffffff;
 	font-size: 90%;
@@ -125,6 +125,7 @@ table{
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
+	border-collapse: collapse;
 	background-color: #dcdcdc;
 }
 
@@ -135,6 +136,13 @@ th{
 	width: 20px;
 }
 
+td{
+	padding: 10px;
+}
+
+caption{
+	caption-side: bottom;
+}
 
 nav li{
     color: #ffffff;
@@ -202,7 +210,7 @@ nav ul a{
 	color:#ffffff;
 }
 a:link{
-	color: #0000ff;
+	color: #ffffff;
 } 
 
 a:visited {
@@ -288,9 +296,8 @@ footer {
     clear: both;
 }
 
-table{
-	border: 1px solid red;
+th,td{
+	display: block;
 }
-
 
 
